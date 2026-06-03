@@ -4,7 +4,7 @@
    "description": "Multi device whatsapp bot by SuhailTechInfo.",
    "main": "lib/client.js",
    "type": "commonjs",
-   "engines" : { "node": "v18.16.0", "npm": "9.5.1" },
+   "engines": { "node": ">=20.18.1", "npm": "9.5.1" },
    "scripts": {
              "start": "pm2 start lib/client.js --deep-monitoring --attach --name Suhail",
              "stop": "pm2 stop Suhail"             
