@@ -2,13 +2,13 @@
    "name": "suhail-md",
    "version": "1.2.8-api",
    "description": "Multi device whatsapp bot by SuhailTechInfo.",
-   "main": "index.js",
-   "type": "commonjs",
-   "engines": {
+   "main": "config.js",
+  "type": "commonjs",
+  "engines": {
     "node": ">=20.20.2"
   },
   "scripts": {
-    "start": "node index.js",
+    "start": "node config.js",
     "stop": "pm2 stop Suhail"
   },
    "keywords": ["whatsapp bot md","whatsapp bot","sc bot","sc wa bot","suhail md","suhail whatsapp bot","Suhail md bot","multidevice","baileys bot"],
